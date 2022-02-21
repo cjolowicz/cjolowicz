@@ -1,6 +1,6 @@
-# 👋 Hi I'm Claudio Jolowicz
+# 👋 Hi there, I'm Claudio Jolowicz
 
-I maintain the following open-source projects:
+I maintain these open-source projects:
 
 <!-- [[[cog
 
@@ -53,7 +53,7 @@ for repo in repos:
 
 ## Contributions
 
-I have contributed to the following open-source projects, among others:
+I have contributed to these open-source projects, among others:
 
 <!-- [[[cog
 
@@ -144,7 +144,7 @@ for repo in repos:
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/mdit-py-plugins?style=flat-square)](https://pypistats.org/packages/mdit-py-plugins)
 <!-- [[[end]]] -->
 
-*In the list above, package names link to commits I authored.*
+*Follow the links to see the commits I authored for these projects.*
 
 ## Writing
 
