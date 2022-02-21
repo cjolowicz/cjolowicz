@@ -157,3 +157,5 @@ Reach me on [Twitter], on [LinkedIn], or at mail (at) claudiojolowicz.com.
 
 [Twitter]: https://twitter.com/cjolowicz
 [LinkedIn]: https://linkedin.com/in/cjolowicz
+
+<img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=cjolowicz&show_icons=true&hide_border=true" />
