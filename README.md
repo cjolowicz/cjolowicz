@@ -19,7 +19,7 @@ for repo in repos:
     cog.out(entry)
 
 repos = [
-    "theacodes/nox"
+    "theacodes/nox",
     "cjolowicz/nox-poetry",
     "cjolowicz/retrocookie",
 ]
@@ -41,10 +41,14 @@ for repo in repos:
 - [hypermodern-python](https://github.com/cjolowicz/hypermodern-python)
   ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/hypermodern-python?logo=python&style=flat-square)
   ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/hypermodern-python?style=social&style=flat-square)
-- [noxcjolowicz/nox-poetry](https://github.com/theacodes/noxcjolowicz/nox-poetry) --
-  [![PyPI](https://img.shields.io/pypi/v/noxcjolowicz/nox-poetry?style=flat-square)](https://pypi.org/project/noxcjolowicz/nox-poetry)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/theacodes/noxcjolowicz/nox-poetry?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/noxcjolowicz/nox-poetry?style=flat-square)](https://pypistats.org/packages/noxcjolowicz/nox-poetry)
+- [nox](https://github.com/theacodes/nox) --
+  [![PyPI](https://img.shields.io/pypi/v/nox?style=flat-square)](https://pypi.org/project/nox)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/theacodes/nox?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/nox?style=flat-square)](https://pypistats.org/packages/nox)
+- [nox-poetry](https://github.com/cjolowicz/nox-poetry) --
+  [![PyPI](https://img.shields.io/pypi/v/nox-poetry?style=flat-square)](https://pypi.org/project/nox-poetry)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/nox-poetry?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/nox-poetry?style=flat-square)](https://pypistats.org/packages/nox-poetry)
 - [retrocookie](https://github.com/cjolowicz/retrocookie) --
   [![PyPI](https://img.shields.io/pypi/v/retrocookie?style=flat-square)](https://pypi.org/project/retrocookie)
   ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/retrocookie?logo=python&style=flat-square)
