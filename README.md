@@ -13,7 +13,7 @@ for repo in repos:
     entry = f"""\
 - [{package}](https://github.com/{repo})
   ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
-  ![GitHub stars](https://img.shields.io/github/stars/{repo}?style=social&style=flat-square)
+  ![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat-square)
 """
     cog.out(entry)
 
@@ -36,7 +36,7 @@ for repo in repos:
 ]]] -->
 - [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python)
   ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/cookiecutter-hypermodern-python?logo=python&style=flat-square)
-  ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/cookiecutter-hypermodern-python?style=social&style=flat-square)
+  ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/cookiecutter-hypermodern-python?style=flat-square)
 - [nox](https://github.com/theacodes/nox) --
   [![PyPI](https://img.shields.io/pypi/v/nox?style=flat-square)](https://pypi.org/project/nox)
   ![GitHub last commit](https://img.shields.io/github/last-commit/theacodes/nox?logo=python&style=flat-square)
