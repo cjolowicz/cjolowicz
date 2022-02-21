@@ -2,47 +2,88 @@
 
 I maintain the following open-source projects:
 
-- [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/cookiecutter-hypermodern-python?logo=python&style=flat-square)
-  ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/cookiecutter-hypermodern-python?style=social&style=flat-square)
-- [hypermodern-python](https://github.com/cjolowicz/hypermodern-python)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/hypermodern-python?logo=python&style=flat-square)
-  ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/hypermodern-python?style=social&style=flat-square)
-- [nox](https://github.com/theacodes/nox) --
-  [![PyPI](https://img.shields.io/pypi/v/nox?style=flat-square)](https://pypi.org/project/nox)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/theacodes/nox?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/nox?style=flat-square)](https://pypistats.org/packages/nox)
-- [nox-poetry](https://github.com/cjolowicz/nox-poetry) --
-  [![PyPI](https://img.shields.io/pypi/v/nox-poetry?style=flat-square)](https://pypi.org/project/nox-poetry)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/nox-poetry?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/nox-poetry?style=flat-square)](https://pypistats.org/packages/nox-poetry)
-- [retrocookie](https://github.com/cjolowicz/retrocookie) --
-  [![PyPI](https://img.shields.io/pypi/v/retrocookie?style=flat-square)](https://pypi.org/project/retrocookie)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/retrocookie?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/retrocookie?style=flat-square)](https://pypistats.org/packages/retrocookie)
+<!-- [[[cog
+
+repos = [
+    "cjolowicz/cookiecutter-hypermodern-python",
+    "cjolowicz/hypermodern-python",
+]
+
+for repo in repos:
+    org, _, package = repo.partition("/")
+    entry = f"""\
+- [{package}](https://github.com/{repo})
+  ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
+  ![GitHub stars](https://img.shields.io/github/stars/{repo}?style=social&style=flat-square)
+"""
+    cog.out(entry)
+
+repos = [
+    "theacodes/nox"
+    "cjolowicz/nox-poetry",
+    "cjolowicz/retrocookie",
+]
+
+for repo in repos:
+    org, _, package = repo.partition("/")
+    entry = f"""\
+- [{package}](https://github.com/{repo}) --
+  [![PyPI](https://img.shields.io/pypi/v/{package}?style=flat-square)](https://pypi.org/project/{package})
+  ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/{package}?style=flat-square)](https://pypistats.org/packages/{package})
+"""
+    cog.out(entry)
+
+]]] -->
+<!-- [[[end]]] -->
 
 ## Contributions
 
 I have contributed to the following open-source projects, among others:
 
-- [nox](https://github.com/theacodes/nox/commits?author=cjolowicz)
-- [pyenv](https://github.com/pyenv/pyenv/commits?author=cjolowicz)
-- [virtualenv](https://github.com/pypa/virtualenv/commits?author=cjolowicz)
-- [click](https://github.com/pallets/click/pull/1582/commits/b38cb0e2b1372c933ea42975632ee5792cef08cf)
-- [cookiecutter](https://github.com/cookiecutter/cookiecutter/commits?author=cjolowicz)
-- [cruft](https://github.com/cruft/cruft/commits?author=cjolowicz)
-- [pygit2](https://github.com/libgit2/pygit2/commits?author=cjolowicz)
-- [hypothesis](https://github.com/HypothesisWorks/hypothesis/commits?author=cjolowicz)
-- [tomlkit](https://github.com/sdispater/tomlkit/commits?author=cjolowicz)
-- [typeguard](https://github.com/agronholm/typeguard/commits?author=cjolowicz)
-- [pluggy](https://github.com/pytest-dev/pluggy/commits?author=cjolowicz)
-- [mypy](https://github.com/python/mypy/commits?author=cjolowicz)
-- [mdit-py-plugins](https://github.com/executablebooks/mdit-py-plugins/commits?author=cjolowicz)
+<!-- [[[cog
+
+repos = [
+    "theacodes/nox",
+    "pyenv/pyenv",
+    "pypa/virtualenv",
+    "pallets/click",
+    "cookiecutter/cookiecutter",
+    "cruft/cruft",
+    "libgit2/pygit2",
+    "sdispater/tomlkit",
+    "agronholm/typeguard",
+    "python/mypy",
+    "HypothesisWorks/hypothesis",
+    "pytest-dev/pluggy",
+    "executablebooks/mdit-py-plugins",
+]
+
+for repo in repos:
+    org, _, package = repo.partition("/")
+
+    if package == "click":
+        url = "https://github.com/pallets/click/pull/1582/commits/b38cb0e2b1372c933ea42975632ee5792cef08cf"
+    else:
+        url = f"https://github.com/{org}/{package}/commits?author=cjolowicz"
+
+    entry = f"""\
+- [{package}]({url}) --
+  [![PyPI](https://img.shields.io/pypi/v/{package}?style=flat-square)](https://pypi.org/project/{package})
+  ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/{package}?style=flat-square)](https://pypistats.org/packages/{package})
+"""
+    cog.out(entry)
+
+]]] -->
+<!-- [[[end]]] -->
+
+*In the list above, package names link to commits I authored.*
 
 ## Writing
 
-- hypermodern python
-- docker
+- [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/) 2020-01-01
+- [Incremental Docker builds for monolithic codebases](https://cjolowicz.github.io/posts/incremental-docker-builds-for-monolithic-codebases/) 2019-05-23
 
 ## Contact
 
