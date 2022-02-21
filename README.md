@@ -6,7 +6,6 @@ I maintain the following open-source projects:
 
 repos = [
     "cjolowicz/cookiecutter-hypermodern-python",
-    "cjolowicz/hypermodern-python",
 ]
 
 for repo in repos:
@@ -38,9 +37,6 @@ for repo in repos:
 - [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python)
   ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/cookiecutter-hypermodern-python?logo=python&style=flat-square)
   ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/cookiecutter-hypermodern-python?style=social&style=flat-square)
-- [hypermodern-python](https://github.com/cjolowicz/hypermodern-python)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/hypermodern-python?logo=python&style=flat-square)
-  ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/hypermodern-python?style=social&style=flat-square)
 - [nox](https://github.com/theacodes/nox) --
   [![PyPI](https://img.shields.io/pypi/v/nox?style=flat-square)](https://pypi.org/project/nox)
   ![GitHub last commit](https://img.shields.io/github/last-commit/theacodes/nox?logo=python&style=flat-square)
