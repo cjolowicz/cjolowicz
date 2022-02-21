@@ -81,7 +81,14 @@ for repo in repos:
     else:
         url = f"https://github.com/{org}/{package}/commits?author=cjolowicz"
 
-    entry = f"""\
+    if package == "pyenv":
+        entry = f"""\
+- [{package}]({url}) &mdash;
+  ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
+  ![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat-square)
+"""
+    else:
+        entry = f"""\
 - [{package}]({url}) &mdash;
   [![PyPI](https://img.shields.io/pypi/v/{package}?style=flat-square)](https://pypi.org/project/{package})
   ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
@@ -95,9 +102,8 @@ for repo in repos:
   ![GitHub last commit](https://img.shields.io/github/last-commit/theacodes/nox?logo=python&style=flat-square)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/nox?style=flat-square)](https://pypistats.org/packages/nox)
 - [pyenv](https://github.com/pyenv/pyenv/commits?author=cjolowicz) &mdash;
-  [![PyPI](https://img.shields.io/pypi/v/pyenv?style=flat-square)](https://pypi.org/project/pyenv)
   ![GitHub last commit](https://img.shields.io/github/last-commit/pyenv/pyenv?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/pyenv?style=flat-square)](https://pypistats.org/packages/pyenv)
+  ![GitHub stars](https://img.shields.io/github/stars/pyenv/pyenv?style=flat-square)
 - [virtualenv](https://github.com/pypa/virtualenv/commits?author=cjolowicz) &mdash;
   [![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)
   ![GitHub last commit](https://img.shields.io/github/last-commit/pypa/virtualenv?logo=python&style=flat-square)
