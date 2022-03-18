@@ -61,15 +61,15 @@ repos = [
     "theacodes/nox",
     "pyenv/pyenv",
     "heroku/heroku-buildpack-python",
-    "cruft/cruft",
-    "pallets/click",
-    "pytest-dev/pluggy",
     "pypa/virtualenv",
     "python/mypy",
+    "pallets/click",
+    "cookiecutter/cookiecutter",
+    "cruft/cruft",
+    "pytest-dev/pluggy",
     "sdispater/tomlkit",
     "agronholm/typeguard",
     "HypothesisWorks/hypothesis",
-    "cookiecutter/cookiecutter",
     "executablebooks/mdit-py-plugins",
     "libgit2/pygit2",
 ]
@@ -108,18 +108,6 @@ for repo in repos:
 - [heroku-buildpack-python](https://github.com/heroku/heroku-buildpack-python/commits?author=cjolowicz) &mdash;
   ![GitHub last commit](https://img.shields.io/github/last-commit/heroku/heroku-buildpack-python?logo=python&style=flat-square)
   ![GitHub stars](https://img.shields.io/github/stars/heroku/heroku-buildpack-python?style=flat-square)
-- [cruft](https://github.com/cruft/cruft/commits?author=cjolowicz) &mdash;
-  [![PyPI](https://img.shields.io/pypi/v/cruft?style=flat-square)](https://pypi.org/project/cruft)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/cruft/cruft?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/cruft?style=flat-square)](https://pypistats.org/packages/cruft)
-- [click](https://github.com/pallets/click/pull/1582/commits/b38cb0e2b1372c933ea42975632ee5792cef08cf) &mdash;
-  [![PyPI](https://img.shields.io/pypi/v/click?style=flat-square)](https://pypi.org/project/click)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/pallets/click?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/click?style=flat-square)](https://pypistats.org/packages/click)
-- [pluggy](https://github.com/pytest-dev/pluggy/commits?author=cjolowicz) &mdash;
-  [![PyPI](https://img.shields.io/pypi/v/pluggy?style=flat-square)](https://pypi.org/project/pluggy)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/pytest-dev/pluggy?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/pluggy?style=flat-square)](https://pypistats.org/packages/pluggy)
 - [virtualenv](https://github.com/pypa/virtualenv/commits?author=cjolowicz) &mdash;
   [![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)
   ![GitHub last commit](https://img.shields.io/github/last-commit/pypa/virtualenv?logo=python&style=flat-square)
@@ -128,6 +116,22 @@ for repo in repos:
   [![PyPI](https://img.shields.io/pypi/v/mypy?style=flat-square)](https://pypi.org/project/mypy)
   ![GitHub last commit](https://img.shields.io/github/last-commit/python/mypy?logo=python&style=flat-square)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/mypy?style=flat-square)](https://pypistats.org/packages/mypy)
+- [click](https://github.com/pallets/click/pull/1582/commits/b38cb0e2b1372c933ea42975632ee5792cef08cf) &mdash;
+  [![PyPI](https://img.shields.io/pypi/v/click?style=flat-square)](https://pypi.org/project/click)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/pallets/click?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/click?style=flat-square)](https://pypistats.org/packages/click)
+- [cookiecutter](https://github.com/cookiecutter/cookiecutter/commits?author=cjolowicz) &mdash;
+  [![PyPI](https://img.shields.io/pypi/v/cookiecutter?style=flat-square)](https://pypi.org/project/cookiecutter)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/cookiecutter/cookiecutter?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/cookiecutter?style=flat-square)](https://pypistats.org/packages/cookiecutter)
+- [cruft](https://github.com/cruft/cruft/commits?author=cjolowicz) &mdash;
+  [![PyPI](https://img.shields.io/pypi/v/cruft?style=flat-square)](https://pypi.org/project/cruft)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/cruft/cruft?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/cruft?style=flat-square)](https://pypistats.org/packages/cruft)
+- [pluggy](https://github.com/pytest-dev/pluggy/commits?author=cjolowicz) &mdash;
+  [![PyPI](https://img.shields.io/pypi/v/pluggy?style=flat-square)](https://pypi.org/project/pluggy)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/pytest-dev/pluggy?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/pluggy?style=flat-square)](https://pypistats.org/packages/pluggy)
 - [tomlkit](https://github.com/sdispater/tomlkit/commits?author=cjolowicz) &mdash;
   [![PyPI](https://img.shields.io/pypi/v/tomlkit?style=flat-square)](https://pypi.org/project/tomlkit)
   ![GitHub last commit](https://img.shields.io/github/last-commit/sdispater/tomlkit?logo=python&style=flat-square)
@@ -140,10 +144,6 @@ for repo in repos:
   [![PyPI](https://img.shields.io/pypi/v/hypothesis?style=flat-square)](https://pypi.org/project/hypothesis)
   ![GitHub last commit](https://img.shields.io/github/last-commit/HypothesisWorks/hypothesis?logo=python&style=flat-square)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/hypothesis?style=flat-square)](https://pypistats.org/packages/hypothesis)
-- [cookiecutter](https://github.com/cookiecutter/cookiecutter/commits?author=cjolowicz) &mdash;
-  [![PyPI](https://img.shields.io/pypi/v/cookiecutter?style=flat-square)](https://pypi.org/project/cookiecutter)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/cookiecutter/cookiecutter?logo=python&style=flat-square)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/cookiecutter?style=flat-square)](https://pypistats.org/packages/cookiecutter)
 - [mdit-py-plugins](https://github.com/executablebooks/mdit-py-plugins/commits?author=cjolowicz) &mdash;
   [![PyPI](https://img.shields.io/pypi/v/mdit-py-plugins?style=flat-square)](https://pypi.org/project/mdit-py-plugins)
   ![GitHub last commit](https://img.shields.io/github/last-commit/executablebooks/mdit-py-plugins?logo=python&style=flat-square)
