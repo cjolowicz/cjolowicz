@@ -60,6 +60,7 @@ I have contributed to these open-source projects, among others:
 repos = [
     "theacodes/nox",
     "pyenv/pyenv",
+    "heroku/heroku-buildpack-python",
     "cruft/cruft",
     "pallets/click",
     "pytest-dev/pluggy",
@@ -104,6 +105,10 @@ for repo in repos:
 - [pyenv](https://github.com/pyenv/pyenv/commits?author=cjolowicz) &mdash;
   ![GitHub last commit](https://img.shields.io/github/last-commit/pyenv/pyenv?logo=python&style=flat-square)
   ![GitHub stars](https://img.shields.io/github/stars/pyenv/pyenv?style=flat-square)
+- [heroku-buildpack-python](https://github.com/heroku/heroku-buildpack-python/commits?author=cjolowicz) &mdash;
+  [![PyPI](https://img.shields.io/pypi/v/heroku-buildpack-python?style=flat-square)](https://pypi.org/project/heroku-buildpack-python)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/heroku/heroku-buildpack-python?logo=python&style=flat-square)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/heroku-buildpack-python?style=flat-square)](https://pypistats.org/packages/heroku-buildpack-python)
 - [cruft](https://github.com/cruft/cruft/commits?author=cjolowicz) &mdash;
   [![PyPI](https://img.shields.io/pypi/v/cruft?style=flat-square)](https://pypi.org/project/cruft)
   ![GitHub last commit](https://img.shields.io/github/last-commit/cruft/cruft?logo=python&style=flat-square)
