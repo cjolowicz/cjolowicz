@@ -158,6 +158,7 @@ for repo in repos:
 
 ## Writing
 
+- [Hypermodern Python Tooling](https://www.oreilly.com/library/view/hypermodern-python-tooling/9781098139575/) 2023-present
 - [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/) 2020-01-01
 - [Incremental Docker builds for monolithic codebases](https://cjolowicz.github.io/posts/incremental-docker-builds-for-monolithic-codebases/) 2019-05-23
 
