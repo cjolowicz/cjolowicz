@@ -4,7 +4,7 @@
 
 ## Writing
 
-- [Hypermodern Python Tooling](https://www.oreilly.com/library/view/hypermodern-python-tooling/9781098139575/) 2023-present
+- [Hypermodern Python Tooling](https://www.oreilly.com/library/view/hypermodern-python-tooling/9781098139575/) 2023-2024
 - [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/) 2020-01-01
 
 ## Open Source
