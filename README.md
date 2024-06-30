@@ -67,5 +67,3 @@ Reach me on [Mastodon], [Twitter], [LinkedIn], or at mail (at) claudiojolowicz.c
 [Mastodon]: https://fosstodon.org/@cjolowicz
 [Twitter]: https://twitter.com/cjolowicz
 [LinkedIn]: https://linkedin.com/in/cjolowicz
-
-<img align="left" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=cjolowicz&show_icons=true&hide_border=true" />
