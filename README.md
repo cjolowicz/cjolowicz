@@ -1,6 +1,6 @@
-# 👋 Hi there, I'm Claudio Jolowicz
-
 [![](hmpt-banner.png)](https://a.co/d/0e7Ib0eL)
+
+# 👋 Hi there, I'm Claudio Jolowicz
 
 ## Writing
 
